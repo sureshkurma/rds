@@ -1,3 +1,4 @@
+#rds
 resource "aws_db_instance" "default" {
   depends_on             = ["aws_security_group.mydb-sg"]
   identifier             = "${var.identifier}"
